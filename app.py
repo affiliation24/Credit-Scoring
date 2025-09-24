@@ -32,7 +32,7 @@ if submit:
     }
 
     try:
-        response = requests.post("http://127.0.0.1:8000/score", json=data)
+        response = requests.post("http://backend:8000/score", json=data)
         response.raise_for_status()
         result = response.json()
 
