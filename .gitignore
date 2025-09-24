@@ -19,11 +19,11 @@ env/
 # Logs
 *.log
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
 # Streamlit cache
 .streamlit/
 
 # Pytest cache
 .pytest_cache/
+
+# venv
+.scor_lib
